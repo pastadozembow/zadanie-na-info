@@ -1,5 +1,8 @@
 import random 
 
+#author lorbasta / femboiCarti
+# silly :3
+
 def fourInputXOR(a, b, c, d):
     andOne = a & b & c & d
     andTwo = a & b & c
@@ -46,7 +49,4 @@ for ch in password:
     sqr = sqr / 2
     i = 1
     
-
 print(*password)
-#print(uppSeed, " ", lowSeed, " ", specSeed, " ", numSeed)
-
